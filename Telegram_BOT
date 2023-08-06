@@ -1,0 +1,21 @@
+import telegram
+import pandas as pd
+import datetime
+
+bot_token = "6446433:rtretrtretretert"
+chat_id = "-98968986986986"
+
+import pandas as pd
+from telegram import Bot
+from tabulate import tabulate
+from datetime import datetime
+import html
+
+excel_file_path = "C:/Users/data.xlsx"
+
+# Create a Telegram bot
+bot = Bot(token=bot_token)
+
+# Read the Excel file
+xl = pd.ExcelFile(excel_file_path)
+
